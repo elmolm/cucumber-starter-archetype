@@ -19,11 +19,7 @@ $ mvn install
 # 3. Building your cucumber project
 ```
 $ cd <your_dev_root_path>
-$ mvn archetype:generate -B \
-	-DarchetypeGroupId=blog.elmland.maven \
-	-DarchetypeArtifactId=cucumber-starter-archetype \
-	-DgroupId=<your_group_id> \
-	-DartifactId=<your_artifact_id>
+$ mvn archetype:generate -B -DarchetypeGroupId=blog.elmland.maven -DarchetypeArtifactId=cucumber-starter-archetype -DgroupId=<your_group_id> -DartifactId=<your_artifact_id>
 	
 $ cd <your_artifact_id>
 $ mvn test
