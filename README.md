@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.org/elmolm/cucumber-starter-archetype.svg?branch=master)](https://travis-ci.org/elmolm/cucumber-starter-archetype)
-
 # 1. Introduction
 This is a maven archetype to create a simple cucumber 3/selenium 3 project. Projects built with this archetype contain:
 
